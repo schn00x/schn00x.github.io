@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
+  <title>schn00x</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -74,20 +74,25 @@
 </head>
 <body>
   <div class="card">
-    {% if site.avatar %}
-      <img class="avatar" src="{{ site.avatar }}" alt="{{ site.title }}">
-    {% endif %}
+    
+      <img class="avatar" src="https://github.com/schn00x.png" alt="schn00x">
+    
 
-    <h1>{{ site.title }}</h1>
-    <p class="bio">{{ site.description }}</p>
+    <h1>schn00x</h1>
+    <p class="bio">testing things</p>
 
     <div class="links">
-      {% for link in site.links %}
-        <a class="link-btn" href="{{ link.url }}">
-          <span>{{ link.icon }}</span>
-          <span>{{ link.title }}</span>
+      
+        <a class="link-btn" href="https://github.com/schn00x">
+          <span>⚡</span>
+          <span>GitHub</span>
         </a>
-      {% endfor %}
+      
+        <a class="link-btn" href="https://www.vinted.at/member/3123811166-moritzs900">
+          <span>🧦</span>
+          <span>Vinted</span>
+        </a>
+      
     </div>
   </div>
 </body>
