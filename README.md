@@ -1,1 +1,1 @@
-# schn00x.githun.io
+# schn00x.github.io
